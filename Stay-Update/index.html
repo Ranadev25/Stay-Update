@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stay-Update</title>
+    <link rel="shortcut icon" href="./img/favicon-32x32.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/favicon-32x32.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/main.css">
+    <style>
+    body{
+      font-family: "roboto",sans-serif;
+    }
+  </style>
+  </head>
+  <body>
+
+
+    <div class="containers relative  flex justify-center  items-center  bg-[#37384E]">
+    <div class="content my-20 max-sm:my-0 max-sm:block max-sm:text-center  flex justify-center  items-center  bg-[#fff] rounded-2xl p-5 max-sm:p-0 ">
+      <div class="mobile-img hidden max-sm:block "><img class="w-[100%] " src="./img/illustration-sign-up-mobile.svg"></div>
+      <div class="stay-info p-5 pr-9 max-sm:pr-5">
+        <h1 class="text-[45px] font-extrabold">Stay updated! </h1>
+        <p class="text-[15px] my-[20px]">Join 60,000+ product managers receiving monthly updates on:</p>
+        <ul class="mt-10 text-left">
+        <li class="flex mb-5"><img class="w-[7%] mr-[5%]" src="./img/icon-success.svg">Product discovery and building what matters</li>
+        <li class="flex mb-5 "><img class="w-[7%] mr-[5%]"  src="./img/icon-success.svg">Measuring to ensure updates are a success </li>
+        <li class="flex "><img class="w-[7%] mr-[5%] "  src="./img/icon-success.svg" >And much more!</li>
+        </ul>
+        <div class="email-input flex justify-between mt-10">
+          <label for="email" class=" text-[13px]">Email addess</label>
+          <p class="error text-red-500 text-[13px]"></p>
+        </div>
+        <input type="email" class="email w-[100%] px-5 py-2 border-[1px] focus:border-[1px solid to-blue-100] rounded-lg " id="email" placeholder="email@company.com" required>
+        <button type="submit" id="submitbtn" class="button rounded-lg mt-4 w-[100%] bg-black text-red-50 py-2">Subscribe to montly newsletter</button>
+      </div>
+      <div class="stay-img max-sm:hidden"><img class="right-img" src="./img/illustration-sign-up-desktop.svg" ></div>
+    </div>
+  </div>
+
+
+   
+
+
+
+
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
