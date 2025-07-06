@@ -1,0 +1,52 @@
+.mainclass{
+  padding: 100px 0;
+}
+.emailerror{
+  border:1px solid red;
+  background: rgba(248, 1, 1, 0.096);
+  color:red;
+}
+.setimg{
+  width: 20%;
+}
+.seth3{
+  font-size: 35px;
+  line-height: 2rem;
+  margin: 20px 0;
+  font-weight: 500;
+}
+.setpara{
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+#Dismisbtn{
+  width: 100%;
+  padding: 8px;
+  background: #222;
+  color:#fff;
+  border-radius: 5px;
+  border:none;
+}
+.newdiv{
+  padding: 5%;
+  background: white;
+  color:black;
+  width: 50%;
+  border-radius: 15px;
+  margin: 100px 0;
+}
+
+
+@media  all and (max-width: 500px) {
+   .mainclass{
+    padding: 0;
+  }
+  .newdiv{
+    width: 100%;
+    border-radius: 0%;
+  }
+  #Dismisbtn{
+    margin-top: 100px;
+  }
+  
+}
